@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@connext/nxtp-contracts": "^0.2.0-alpha.24",
     "@superfluid-finance/ethereum-contracts": "^1.4.0",
     "@truffle/hdwallet-provider": "^2.0.14",
     "dotenv": "^16.0.0",
