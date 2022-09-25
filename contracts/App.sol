@@ -9,6 +9,8 @@ interface IERC20 {
 
 contract App{
 
+
+
     enum CourseStatus {
         NOT_STARTED,
         IN_PROGRESS,
@@ -115,4 +117,5 @@ contract App{
     function getCourses(uint256 pContentCreatorId) public view returns(ContentCreator_Course[] memory ccCourse){
         return courses[pContentCreatorId];
     }
+
 }
